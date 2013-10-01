@@ -15,6 +15,7 @@ Download and copy this project folder to anywhere you like in your local harddis
 
 ### Hardware
 Five phidgets light sensors (model 1143) are connected to a single Phidgets inter-face Kit 8/8/8, which connects to a Windows PC via USB
+
 http://www.phidgets.com/products.php?category=6&product_id=1143_0
 http://www.phidgets.com/products.php?category=0&product_id=1018_2
 
@@ -31,6 +32,7 @@ Install PyWin32 after Python 2.7 installed
 
 ### Phidgets Driver and Libraries
 Phidgets driver and libraries can be downloaded from: 
+
 http://www.phidgets.com/docs/Language_-_Python#Windows.282000.2FXP.2FVista.2F7.29
 
 
