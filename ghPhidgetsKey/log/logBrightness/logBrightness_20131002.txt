@@ -1,0 +1,4 @@
+
+
+2013-10-02 15:58:52	------ log is starting ------	SitW Phidgets Key       v4.6 GH v1.1
+2013-10-02 15:58:52	
