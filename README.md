@@ -37,10 +37,18 @@ http://www.phidgets.com/docs/Language_-_Python#Windows.282000.2FXP.2FVista.2F7.2
 
 Project information:
 ==========
-### Contributors:
-### MRL
-### SITW Project
-### Funder: the RCUK Digital Economy Programme (EP/I031413/1 & EP/I031839/1)
+### Funder
+The project was funded by the RCUK Digital Economy Programme (EP/I031413/1 & EP/I031839/1)  
+Project web page: http://www.screensinthewild.org/  
+
+### Orgnization
+The Mixed Reality Lab at the University of Nottingham  
+MRL web page: http://www.mrl.nott.ac.uk/  
+
+### Contributors
+Lei Ye                  L.Ye@nottingham.ac.uk  
+Holger Schnädelbach     Holger.Schnadelbach@nottingham.ac.uk  
+Steve North             Steve.North@nottingham.ac.uk  
 
 
 
