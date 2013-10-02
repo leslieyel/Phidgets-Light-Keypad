@@ -1,6 +1,7 @@
 Phidgets-Light-Keypad
 =====================
-Interaction through double-glazing or any transparent medium
+Interaction through double-glazing or any transparent medium  
+GitHub page: http://leslieyel.github.io/Phidgets-Light-Keypad/
 
 
 Inroduction:
