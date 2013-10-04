@@ -8,8 +8,10 @@ Inroduction:
 ==========
 Interaction through glass has been demanding in industry, business, education, advertising and entertainment fields. Different technologies exist and work in varied circumstances. For example: acoustics or vibration detection, computer vision, capacitive interactive foils, infrared and others. The existing technologies tend to not work reliably through double-glazing and in outdoors conditions. This project introduces an easy-to-implement, inexpensive solution, which is using light sensors to detect human actions and to interact with a computer. Light-Keypad can be used on any transparent medium, including through thick, coated double-glazing. This is a non-intrusive interactive method that may be used on existing objects and structures without modifying them. The prototype product has been used successfully in our current research project exploring the urban impact of digital screens.  
 
+<p align="center">
+  <img src="https://raw.github.com/leslieyel/Phidgets-Light-Keypad/gh-pages/ylimages/LightKeypad_2.jpg" alt="Image">
+</p>
 
-![image](../gh-pages/ylimages/LightKeypad_2.jpg "System Structure")  
 
 
 More information about Phidgets-Light-Keypad：  
