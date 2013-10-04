@@ -19,7 +19,8 @@ https://github.com/leslieyel/Phidgets-Light-Keypad/wiki
 Installation:
 ==========
 ### Software
-Download and copy this project folder to anywhere you like in your local harddisk
+Download and copy this project folder to anywhere you like in your local harddisk  
+Execute "run.bat" to start running  
 
 ### Hardware
 Five phidgets light sensors (model 1143) are connected to a single Phidgets inter-face Kit 8/8/8, which connects to a Windows PC via USB  
