@@ -32,7 +32,7 @@ http://www.phidgets.com/products.php?category=0&product_id=1018_2
 
 Requires:
 ==========
-### Pythion 2.7
+### Python 2.7
 Install Python 2.7 to C:\
 
 ### wxPython 2.9
