@@ -73,10 +73,15 @@ class SitwPhidgetsKey(wx.Frame):
         self.bNight = False
         self.ctEvn = 0
         
-        self.edgeTop = 50
-        self.edgeBottom = sitwPara.MoveEdgeBottom1
-        self.edgeLeft = 50
-        self.edgeRight = 50
+        #self.edgeTop = 50
+        #self.edgeBottom = sitwPara.MoveEdgeBottom1
+        #self.edgeLeft = 50
+        #self.edgeRight = 50
+        
+        self.edgeTop = 25
+        self.edgeBottom = 25
+        self.edgeLeft = 25
+        self.edgeRight = 25        
        
         self.strLogAction = ''
         self.strLogBrightness = ''
@@ -367,17 +372,8 @@ class SitwPhidgetsKey(wx.Frame):
                         elif (Key == "Log_Action"):
                             sitwPara.Log_Action = str(val)           
                         elif (Key == "Log_Brightness"):
-                            sitwPara.Log_Brightness = str(val)    
-                        elif (Key == "Schedule_Check"):
-                            sitwPara.Schedule_Check = str(val)                            
-                        elif (Key == "Node_Name"):
-                            sitwPara.Node_Name = str(val)
-                        elif (Key == "Local_Schedule"):
-                            sitwPara.Local_Schedule = str(val)                            
-                        elif (Key == "Sample"):
-                            sitwPara.Sample = str(val)                            
-                        elif (Key == "URL_Schedule"):
-                            sitwPara.URL_Schedule = str(val)                                                                                       
+                            sitwPara.Log_Brightness = str(val) 
+                                                                                                         
                         else:
                             pass
                             
@@ -399,12 +395,7 @@ class SitwPhidgetsKey(wx.Frame):
                  "SampleInterval_Key",
                  "SampleInterval_Env",
                  "Log_Action",
-                 "Log_Brightness",
-                 "Schedule_Check",
-                 "Node_Name",
-                 "Local_Schedule",
-                 "Sample",
-                 "URL_Schedule")),)
+                 "Log_Brightness")),)
                  
                  
                      

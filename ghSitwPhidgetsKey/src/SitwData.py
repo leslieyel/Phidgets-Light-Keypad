@@ -7,7 +7,7 @@ Created on 16 Nov 2012
 
 class SitwPara():
     
-    Title = 'SitW Phidgets Key       v4.6 GH v1.1'
+    Title = 'SitW Phidgets Key       v4.6 GH v1.2'
     
     
     FilePath_Ini = '..\\cfg\\SitwPhidgetsKey.ini'
@@ -21,12 +21,7 @@ class SitwPara():
     SampleInterval_Env = 10000   #ms 
     Log_Action = 'No'
     Log_Brightness = 'No'
-    
-    Schedule_Check = 'No'
-    Node_Name = 'NAE'
-    Local_Schedule = 'No'
-    Sample = ''
-    URL_Schedule = ''     
+      
     
     
     List_mb = [(0.02791, -1.3636), (0.02326, 0.04842), (0.02314, -0.8407), (0.02224, -0.3320), (0.02364, -0.4611)]       #NAE 
@@ -38,15 +33,18 @@ class SitwPara():
     List_KeyCheckOrder = [3, 1, 0, 2, 4] #up>left>click>right>down 
     
     
-    ScreenGramButtonX = 666
-    MooderatorCursorX = 386
-    MooderatorCursorY = 580
+
     MoveEdgeBottom1 = 50
     MoveEdgeBottom2 = 300
     
     
     
     '''
+    GH v1.2
+    Remove project relevant parameters
+    Change edge area
+    
+    
     GH v1.1
     Cursor names changed
     
