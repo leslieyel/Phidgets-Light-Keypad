@@ -7,7 +7,7 @@ Created on 16 Nov 2012
 
 class SitwPara():
     
-    Title = 'SitW Phidgets Key       v4.6 GH v1.2'
+    Title = 'SitW Phidgets Key       v4.6 GH v1.3'
     
     
     FilePath_Ini = '..\\cfg\\SitwPhidgetsKey.ini'
@@ -40,6 +40,10 @@ class SitwPara():
     
     
     '''
+    GH V1.3
+    Add double-click action after covering 'click' key for 2 seconds
+    
+    
     GH v1.2
     Remove project relevant parameters
     Change edge area

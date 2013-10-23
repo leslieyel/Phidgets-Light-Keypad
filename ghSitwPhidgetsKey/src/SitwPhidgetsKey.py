@@ -570,9 +570,13 @@ class SitwPhidgetsKey(wx.Frame):
                 else:
                     self.KeyPressed = ''                     
             elif KeyID == 0: 
-                if self.KeyPressed != 'click' and self.KeyPressed != 'clicked' and self.bKeyIntervalOK == True:
-                    self.KeyPressed = 'click' #or 'd-click' 
+                if self.KeyPressed != 'click' and self.KeyPressed != 'clicked' and self.KeyPressed != 'dclick' and self.KeyPressed != 'dclicked' and self.bKeyIntervalOK == True:
+                    self.KeyPressed = 'click'
+                    self.dtAction = datetime.datetime.now()       
+                elif self.KeyPressed != 'dclick' and self.KeyPressed != 'dclicked' and (dtCurrentTime - self.dtAction > datetime.timedelta(microseconds = 2200000)): # =2.2s ; 1000000 = 1s
+                    self.KeyPressed = 'dclick'
                     self.dtAction = datetime.datetime.now()      
+
         else:
             self.KeyPressed = ''
         
@@ -615,15 +619,15 @@ class SitwPhidgetsKey(wx.Frame):
                 self.KeyPressed = 'clicked'   
             elif self.KeyPressed == 'dclick':
                 self.dclick(pos[0], pos[1])   
-                #print '**********d-click**************'         
-                self.KeyPressed = 'd-clicked'
+                #print '**********dclick**************'         
+                self.KeyPressed = 'dclicked'
                     
             
         ###Action Log
         if sitwPara.Log_Action == 'Yes':
             self.CurAction = self.KeyPressed
             self.CurPos = win32api.GetCursorPos()
-                        
+                         
             if self.CurAction != self.PreAction and len(self.PreAction) > 0:                 
                 #dtCurrentTime = datetime.datetime.now()
                 #strTimeTag = datetime.datetime.strftime(dtCurrentTime, '%Y-%m-%d %H:%M:%S')
