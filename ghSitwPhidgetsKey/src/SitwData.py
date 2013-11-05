@@ -7,7 +7,7 @@ Created on 16 Nov 2012
 
 class SitwPara():
     
-    Title = 'SitW Phidgets Key       v4.6 GH v1.3'
+    Title = 'SitW Phidgets Key       v4.6 GH v1.4'
     
     
     FilePath_Ini = '..\\cfg\\SitwPhidgetsKey.ini'
@@ -16,7 +16,7 @@ class SitwPara():
     
     KeyCount = 5
     Sensitivity = 0.60
-    MovingPace = 10
+    MovingPace = 7
     SampleInterval_Key = 50      #ms
     SampleInterval_Env = 10000   #ms 
     Log_Action = 'No'
@@ -30,7 +30,8 @@ class SitwPara():
     List_ButtonPos = [(110, 120, 100, 100), (10, 120, 100, 100), (210, 120, 100, 100), (110, 20, 100, 100), (110, 220, 100, 100)]
     List_Action = ['clicked', 'left', 'right', 'up', 'down']
     
-    List_KeyCheckOrder = [3, 1, 0, 2, 4] #up>left>click>right>down 
+    #List_KeyCheckOrder = [3, 1, 0, 2, 4] #up>left>click>right>down
+    List_KeyCheckOrder = [3, 1, 2, 0, 4] #up>left>right>click>down 
     
     
 
@@ -40,6 +41,12 @@ class SitwPara():
     
     
     '''
+    GH v1.4
+    up>left>right>click>down
+    MovingPace -> 7
+    EdgesXXX -> 18
+    
+    
     GH V1.3
     Add double-click action after covering 'click' key for 2 seconds
     

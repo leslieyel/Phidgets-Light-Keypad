@@ -78,10 +78,10 @@ class SitwPhidgetsKey(wx.Frame):
         #self.edgeLeft = 50
         #self.edgeRight = 50
         
-        self.edgeTop = 25
-        self.edgeBottom = 25
-        self.edgeLeft = 25
-        self.edgeRight = 25        
+        self.edgeTop = 18
+        self.edgeBottom = 18
+        self.edgeLeft = 18
+        self.edgeRight = 18        
        
         self.strLogAction = ''
         self.strLogBrightness = ''
